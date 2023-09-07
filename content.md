@@ -4,7 +4,7 @@
 
 Assuming that we have a database and a table called "contacts" in it (we'll discuss how to do that in a moment), we would normally have to write Structured Query Language (SQL) to interact with it.
 
-Instead, we can define a class, e.g. `Contact`, and [inherit](https://learn.firstdraft.com/lessons/78#inheritance) from `ApplicationRecord`:
+Instead, we can define a class, e.g. `Contact`, and [inherit](https://learn.firstdraft.com/lessons/78-ruby-intro-our-own-classes#inheritance) from `ApplicationRecord`:
 
 ```ruby
 class Contact < ApplicationRecord
@@ -109,7 +109,7 @@ A crucial thing to remember: when you are talking to the **whole table**, you ar
 Like any Ruby class we instantiate a new, blank object with the `.new` method:
 
 <aside markdown="1">
-Remember Array, Hash, or even String, before we got to their [literal](https://learn.firstdraft.com/lessons/73#array-literals) [shorthand](https://learn.firstdraft.com/lessons/77#hash-literals) [syntaxes](https://learn.firstdraft.com/lessons/69#string-literals)? We always started with `.new`, and then built up from scratch.
+Remember Array, Hash, or even String, before we got to their [literal](https://learn.firstdraft.com/lessons/73-ruby-intro-array#array-literals) [shorthand](https://learn.firstdraft.com/lessons/77-ruby-intro-hash#hash-literals) [syntaxes](https://learn.firstdraft.com/lessons/69-ruby-intro-string#string-literals)? We always started with `.new`, and then built up from scratch.
 </aside>
 
 ```ruby
